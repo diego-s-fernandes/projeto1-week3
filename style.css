@@ -28,11 +28,11 @@ body {
   }
 
   .letras-erradas-container {
-    font-size: 32px;
+    font-size: 16px;
   }
   
   .letras-erradas-container span {
-    margin: 0 2px;
+    margin: 02px;
   }
   .aviso-palavra-repetida {
     background-color: rgba(0, 0, 0, 0.3);
@@ -81,5 +81,13 @@ body {
     margin-top: 20px;
     padding: 12px 20px;
     font-size: 16px;
+  }
+
+  #bandeira {
+    float: left;
+    width: 15%;
+    border: thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
   }
   
