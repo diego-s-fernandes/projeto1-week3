@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     display: flex;
     flex-direction: column;
@@ -83,7 +84,17 @@ body {
     font-size: 16px;
   }
 
-  #bandeira {
+  .container-bandeiras {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #bandeira-mercosul {
     float: left;
     width: 15%;
     border: thin solid;
@@ -91,3 +102,41 @@ body {
     margin: 0px 10px 10px 0;
   }
   
+ 
+  #bandeira-brasil {
+    float: left;
+    width: 15%;
+    border: thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+  }
+
+  #bandeira-argentina {
+    float: left;
+    width: 15%;
+    border: thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+  }
+
+  #bandeira-paraguay{
+    float: left;
+    width: 15%;
+    border: thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+  }
+  #bandeira-venezuela{
+    float: left;
+    width: 15%;
+    border: thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+  }
+  #bandeira-uruguai{
+    float: left;
+    width: 15%;
+    border: thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+  }

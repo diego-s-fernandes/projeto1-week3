@@ -1,4 +1,4 @@
-const paises = ["argentina", "brasil", "paraguai", "uruguai.", "venezuela"];
+const paises = ["ARGENTINA", "BRASIL", "PARAGUAI", "URUGUAI", "VENEZUELA"];
 const palavraSecreta =
   paises[Math.floor(Math.random() * paises.length)];
 const letrasErradas = [];
