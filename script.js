@@ -7,7 +7,7 @@ const letrasCorretas = [];
 document.addEventListener("keydown", (evento) => {
   const codigo = evento.keyCode; // 65 - 90 (intervalo)
   if (isLetra(codigo)) {
-    const letra = evento.key;
+    const letra = evento.key.toUpperCase();
     if (letrasErradas.includes(letra)) {
       mostrarAvisoLetraRepetida();
     } else {
